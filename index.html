@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <head>
+    <div class="lg:my-24 my-12">
+      <h1 class="title text-2xl font-semibold text-center text-cyan-800">S P L I</h1>
+      <h1 class="title text-2xl font-semibold text-center text-cyan-800">T T E R</h1>
+    </div>
+  </head>
+  <main>
+    <section class="mx-auto lg:px-96 md:px-0">
+      <div class="grid md:grid-cols-2 gap-8 mx-auto bg-white p-8 rounded-lg">
+        <div class="md:order-1">
+          <h4 class="text-cyan-700 font-semibold">Bill</h4>
+          <input type="number" name="" id="" class="py-2 rounded bg-cyan-50 block w-full" placeholder=" $">
+          <div class="my-5">
+            <h4 class="text-cyan-700 font-semibold">Select Tip %</h4>
+            <div class="grid lg:grid-cols-3 grid-cols-2 gap-4 justify-betwwen">
+                <button class="py-2 bg-cyan-800 text-white font-semibold text-xl rounded hover:bg-teal-400 hover:text-cyan-800">5%</button>
+                <button class="py-2 bg-cyan-800 text-white font-semibold text-xl rounded hover:bg-teal-400 hover:text-cyan-800"">10%</button>
+                <button class="py-2 bg-cyan-800 text-white font-semibold text-xl rounded hover:bg-teal-400 hover:text-cyan-800"">15%</button>
+
+                <button class="py-2 bg-cyan-800 text-white font-semibold text-xl rounded hover:bg-teal-400 hover:text-cyan-800"">25%</button>
+               <button class="py-2 bg-cyan-800 text-white font-semibold text-xl rounded hover:bg-teal-400 hover:text-cyan-800"">50%</button>
+               <input class="py-2 rounded bg-cyan-50" type="number" placeholder=" Custom" name="" id="">
+            </div>
+          </div>
+          <h4 class="text-cyan-700 font-semibold">Number of People</h4>
+          <input type="number" name="" id="" class="py-2 rounded bg-cyan-50 block w-full" placeholder="">
+        </div>
+        <div class="md:order-2 bg-cyan-800 md:p-10 p-5 rounded-lg flex flex-col justify-">
+          <div class="flex justify-between">
+            <div>
+              <h4 class="text-white font-semibold">Tip Amount</h4>
+              <p class="text-cyan-500 text-sm">/ person</p>
+            </div>
+            <div>
+              <h2 class="text-teal-400 font-semibold text-4xl">$0.00</h2>
+            </div>
+          </div>
+          <div class="flex justify-between my-6">
+            <div>
+              <h4 class="text-white font-semibold">Total</h4>
+              <p class="text-cyan-500 text-sm">/ person</p>
+            </div>
+            <div>
+              <h2 class="text-teal-400 font-semibold text-4xl">$50.00</h2>
+            </div>
+          </div>
+          <div>
+            <button class="w-full bg-teal-400 text-cyan-800 font-semibold py-2 rounded mt-10">RESET</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Sraboni Bhuiyan</a>.
+    </div>
+  </footer>
+</body>
+</html>
